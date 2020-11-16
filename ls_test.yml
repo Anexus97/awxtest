@@ -1,7 +1,7 @@
 ---
-   - name: test ls
-   host: all
+   - name: test playbook
+   hosts: all
    become: yes
-          task:
+          tasks:
               - name: test ls
                    shell: sl
