@@ -1,0 +1,6 @@
+---
+   -host: all
+   -become: yes
+          -task:
+               name: test ls
+                   shell: sl
