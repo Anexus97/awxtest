@@ -1,6 +1,7 @@
 ---
    - name: test playbook
-   become: yes
+     hosts: ALL
+     become: yes
           tasks:
               - name: test ls
                    shell: sl
