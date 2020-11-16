@@ -2,6 +2,6 @@
    - name: test playbook
      hosts: ALL
      become: yes
-          tasks:
-              - name: test ls
-                   shell: sl
+     tasks:
+       - name: test ls
+         shell: sl
