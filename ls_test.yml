@@ -1,5 +1,7 @@
+---
+- name: test ls
    -host: all
    -become: yes
-          -task:
-               name: test ls
+          task:
+            -name: test ls
                    shell: ls
