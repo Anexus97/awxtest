@@ -1,5 +1,5 @@
 ---
-   - name: test update
+   - name: update_apt
      hosts: all
      become: yes
      tasks:
