@@ -3,6 +3,10 @@
      hosts: all
      become: yes
      tasks:
+       - name: occ. space
+         shell: df -h
+       - name: iostat
+         shell: iostat
        - name: update
          shell: apt update
        - name: upgrade
