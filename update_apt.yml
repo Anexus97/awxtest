@@ -1,7 +1,0 @@
----
-   - name: update_apt
-     hosts: all
-     become: yes
-     tasks:
-       - name: update
-         apt: update
