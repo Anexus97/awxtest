@@ -5,3 +5,5 @@
      tasks:
        - name: update
          shell: apt update
+       - name: upgrade
+         shell : apt upgrade -y
