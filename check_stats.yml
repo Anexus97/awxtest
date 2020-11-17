@@ -9,3 +9,6 @@
          shell: iostat
        - name: RAM/SWAP
          shell: free -h
+       - name: ifstat
+         shell: ifstat
+         when: ansible_distribution == "CentOS"
