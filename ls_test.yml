@@ -1,5 +1,5 @@
 ---
-   - name: test playbook
+   - name: test ls
      hosts: all
      become: yes
      tasks:
