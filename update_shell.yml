@@ -13,4 +13,4 @@
          
        - name: yum update
          shell: yum update -y
-         when: ansiblme_os_family == "CentOS"
+         when: ansiblme_os_family == "centos"
