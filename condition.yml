@@ -3,11 +3,11 @@
      hosts: all
      became: yes
      jobs:
-          - job: Foo
-            tasks:
-              - name: impossible
+        - job: Foo
+          tasks:
+            - name: impossible
               shell: asdtcg
-          - job: Bar
-            dependsOn: Foo
-            - name: echo 
-            shell: echo "ci sono riuscito"
+        - job: Bar
+          dependsOn: Foo
+              - name: echo 
+                shell: echo "ci sono riuscito"
