@@ -10,5 +10,5 @@
          shell: apt upgrade -y
          when: ansible_os_family == "Debian"
        - name: yum update
-         shell: yum update --y
+         shell: yum update -y
          when: ansible_distribution == "CentOS"
