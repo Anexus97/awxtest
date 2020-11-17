@@ -1,7 +1,0 @@
----
-   - name: test ls
-     hosts: all
-     become: yes
-     tasks:
-       - name: test ls
-         shell: ls
