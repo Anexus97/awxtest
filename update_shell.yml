@@ -3,7 +3,12 @@
      hosts: all
      become: yes
      tasks:
-       - name: update
+       - name: apt update
          shell: apt update
-       - name: upgrade
+         when: ansible_os_family = "Debian"
+       - name: apt upgrade
          shell: apt upgrade -y
+         when: ansible_os_family = "Debian"
+       - name: yum update
+        shell: yum update -y
+        when: ansiblme_os_family = "CentOS
