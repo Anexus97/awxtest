@@ -11,4 +11,4 @@
          when: ansible_os_family == "Debian"
        - name: yum update
          shell: yum update --y
-         when: ansiblme_os_family == "CentOS"
+         when: ansible_os_family == "CentOS"
