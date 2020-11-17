@@ -9,5 +9,5 @@
               shell: asdtcg
         - job: Bar
           dependsOn: Foo
-              - name: echo 
-                shell: echo "ci sono riuscito"
+            - name: echo 
+              shell: echo "ci sono riuscito"
