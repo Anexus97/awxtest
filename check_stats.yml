@@ -1,0 +1,11 @@
+---
+   - name: test update
+     hosts: all
+     become: yes
+     tasks:
+       - name: Space Left
+         shell: df -h
+       - name: iostat
+         shell: iostat
+       - name: RAM/SWAP
+         shell: free -h
